@@ -1,5 +1,5 @@
 import { SignerWithAddress } from "@nomiclabs/hardhat-ethers/signers";
-import * as dotenv from 'dotenv'
+import * as dotenv from 'dotenv';
 import { ethers } from "ethers";
 import { Ballot, Ballot__factory } from "../typechain-types";
 
@@ -23,6 +23,7 @@ async function main() {
 
     const args = process.argv;
     const proposals = args.slice(2);
+    if (proposals.length<=0) throw new Error("Not engouh arguments");
     console.log("Deploying Ballot contract");
     console.log("Proposals: ");
     proposals.forEach((element, index) => {

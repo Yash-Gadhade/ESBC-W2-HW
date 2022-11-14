@@ -1194,6 +1194,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/prompt-sync@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "@types/prompt-sync@npm:4.2.0"
+  checksum: fda361bfc358e1f59e2328e62f9c15c9eb650a3707475711524bb8c6bc07175098d6ba76b21dca996d0d45a7a4f388de452debf84bf94cf9f214f733ce040082
+  languageName: node
+  linkType: hard
+
 "@types/qs@npm:^6.2.31":
   version: 6.9.7
   resolution: "@types/qs@npm:6.9.7"
@@ -1226,12 +1233,14 @@ __metadata:
     "@types/chai": ^4.2.0
     "@types/mocha": ^9.1.0
     "@types/node": ">=12.0.0"
+    "@types/prompt-sync": ^4.2.0
     chai: ^4.2.0
     dotenv: ^16.0.3
     ethers: ^5.4.7
     hardhat: ^2.11.1
     hardhat-gas-reporter: ^1.0.8
     mocha: ^10.1.0
+    prompt-sync: ^4.2.0
     solidity-coverage: ^0.8.0
     ts-node: ">=8.0.0"
     typechain: ^8.1.0
@@ -5259,6 +5268,15 @@ __metadata:
   dependencies:
     asap: ~2.0.6
   checksum: a69f0ddbddf78ffc529cffee7ad950d307347615970564b17988ce43fbe767af5c738a9439660b24a9a8cbea106c0dcbb6c2b20e23b7e96a8e89e5c2679e94d5
+  languageName: node
+  linkType: hard
+
+"prompt-sync@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "prompt-sync@npm:4.2.0"
+  dependencies:
+    strip-ansi: ^5.0.0
+  checksum: b14dfb7d2520f384324b49a64c033e92cf2889e34a148037d66b0b89e43f530a93344aebf57c4abe3ae4e351080e22388f7141ea0fbc56b1b9a7f152d5d4a423
   languageName: node
   linkType: hard
 

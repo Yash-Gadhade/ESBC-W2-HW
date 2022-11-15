@@ -9,7 +9,7 @@ import abi from "../artifacts/contracts/Ballot.sol/Ballot.json";
 
 dotenv.config();
 
-const CONTRACT_ADDRESS = "0xea078cd23f71492a45629eaeefc44ff5c0a7f3f4";
+const CONTRACT_ADDRESS = "0xed4e3EAA4d453e81348792B2b3D9C1db0B2f8B17";
 
 const PROPOSALS_COUNT = 3;
 
